@@ -40,7 +40,7 @@ Deque bisa menggunakan operasi dari front dan back.
 
 Operasi yang digunakan
 
-pushFront, pushBack, popFront, popBack, front, back, isEmpty
+pushBack, popFront, popBack, front, back, isEmpty
 
 var. yang dipakai
 
