@@ -45,7 +45,11 @@ pushFront, pushBack, popFront, popBack, isEmpty, printDeque.
 var. yang dipakai
 
 ADD_URGENT = pushFront (task urgent dimasukkan paling depan).
+
 ADD_NORMAL = pushBack (task normal ditambahkan di belakang).
+
 RUN = popFront (task paling depan dijalankan/diambil).
+
 DROP = popBack (task paling belakang dibuang).
+
 LIST = menampilkan seluruh task dari front ke rear.
