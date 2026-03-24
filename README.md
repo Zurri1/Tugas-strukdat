@@ -1,6 +1,6 @@
 # Tugas-strukdat
 
-# Stack (Undo Notepad Case)
+# Stack (Undo)
 
 Stack digunakan untuk membuat fitur UNDO. Setiap karakter yang diketik user disimpan menggunakan LIFO.
 Saat user melakukan UNDO, karakter terakhir akan dihapus.
