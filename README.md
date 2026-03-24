@@ -33,20 +33,19 @@ NEXT = dequeue customer yang paling depan
 
 LIST = tampilkan seluruh antrian
 
-# Deque (Browser Tab Navigation)
+# Deque (Task Scheduler with Priority)
 
-Deque digunakan untuk sistem navigasi tab browser.
-Deque bisa menggunakan operasi dari front dan back.
+Deque digunakan untuk mensimulasikan sistem penjadwalan tugas dengan dua tingkat prioritas: urgent dan normal.
+Struktur ini mendukung operasi penambahan dan penghapusan elemen dari kedua sisi, sehingga sesuai untuk mengelola task dengan prioritas berbeda.
 
 Operasi yang digunakan
 
-pushBack, popFront, popBack, front, back, isEmpty
+pushFront, pushBack, popFront, popBack, isEmpty, printDeque.
 
 var. yang dipakai
 
-OPEN = menambah tab di belakang
-
-BACK = menghapus tab dari belakang
-
-FORWARD = menghapus tab dari depan
-LIST = menampilkan tab dari depan ke belakang
+ADD_URGENT = pushFront (task urgent dimasukkan paling depan).
+ADD_NORMAL = pushBack (task normal ditambahkan di belakang).
+RUN = popFront (task paling depan dijalankan/diambil).
+DROP = popBack (task paling belakang dibuang).
+LIST = menampilkan seluruh task dari front ke rear.
