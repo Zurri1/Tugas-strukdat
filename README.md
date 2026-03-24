@@ -36,7 +36,7 @@ LIST = tampilkan seluruh antrian
 # Deque (Browser Tab Navigation)
 
 Deque digunakan untuk sistem navigasi tab browser.
-Deque memungkinkan operasi dari front dan back.
+Deque bisa menggunakan operasi dari front dan back.
 
 Operasi yang digunakan
 
